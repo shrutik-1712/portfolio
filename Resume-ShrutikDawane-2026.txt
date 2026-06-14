@@ -1,0 +1,40 @@
+﻿SHRUTIK DAWANE
+Bhandup. Mumbai | LinkedIn | shrutikdawane1712@gmail.com | +91 9967371345| Portfolio | Github
+PROFESSIONAL SUMMARY
+________________
+
+Backend Python Engineer with hands-on startup experience building data pipelines and LLM-based backend systems. Work spans large-scale document scraping, PDF processing, RAG pipeline development, Elasticsearch data workflows, and self-hosted LLM inference on GPU infrastructure. Used to owning backend features end to end with minimal oversight.  
+SKILLS
+________________
+
+Languages: Python,Go
+Backend: FastAPI, Flask, REST APIs, GraphQL
+LLM Systems: Claude, Gemini, LLaMA, Qwen, RAG pipelines 
+Vector & Inference: ChromaDB, vLLM 
+Databases & Search: Elasticsearch, MongoDB, MySQL 
+Data & Scraping: Pandas, Selenium 
+Infra: Vast.ai GPU deployment, Linux/Ubuntu(SSH) 
+Tools: Git, cURL, Claude Code, OpenCode CLI, Codex   
+WORK EXPERIENCE
+
+________________
+ALL MR ONLINE                                                                                         Mumbai, MH
+Python Backend Engineer                                                                                       Aug 2024-present
+LexAuthority - AI-Powered Legal Search Platform (Feb 2025 - Present) Link
+* Built a Selenium scraping pipeline collecting 1.5M+ documents from Highcourt portals — solved CAPTCHA barriers by integrating Nebius AI vision model API: capturing screenshots via Selenium, sending base64 encoded images for inference, and programmatically injecting responses to unblock navigation  
+* Built an async Python pipeline (aiofiles + threading) to process 200K+ PDFs — sent documents to a self-hosted vLLM inference server to extract structured fields (party names, case numbers, dates, judges, headnotes) with error logging and resume support
+* Built a semantic search API using FastAPI + ChromaDB — converted user queries to vectors and retrieved relevant documents via cosine similarity search over AI-generated legal headnotes,
+* Deployed Qwen3-35B on Vast.ai (A100 80GB / RTX 6000) using vLLM with FP8 quantization and 131K context length — secured inference endpoint via SSH tunnel with key-based auth; configured OpenCode CLI against the same endpoint for team-wide AI-assisted development
+* Maintained and updated Elasticsearch indices — modified and corrected field-level data monthly to keep records accurate across 4 production applications .
+* Built a Flask API that accepts text input, runs LLM inference via Nebius AI, and returns AI-generated headnotes and headlines — integrated into an Angular frontend for one-click content generation  
+PROJECTS
+________________
+
+Freelance Project |  Python, FastAPI, ReactJS | dbplorg.com
+Built and deployed a REST API backend for a local library management system using FastAPI and MongoDB, set up domain and HTTPS for a paying client 
+        
+EDUCATION 
+
+________________
+University of Mumbai | May 2024                                                                                        
+Masters of Computer Applications
