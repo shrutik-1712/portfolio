@@ -14,19 +14,19 @@ Vector & Inference: ChromaDB, vLLM
 Databases & Search: Elasticsearch, MongoDB, MySQL 
 Data & Scraping: Pandas, Selenium 
 Infra: Vast.ai GPU deployment, Linux/Ubuntu(SSH) 
-Tools: Git, cURL, Claude Code, OpenCode CLI, Codex   
+Tools: Git, cURL, Claude Code, OpenCode CLI, Codex  
 WORK EXPERIENCE
 
 ________________
-ALL MR ONLINE                                                                                         Mumbai, MH
+ALL MR ONLINE                                                                                                  Mumbai, MH
 Python Backend Engineer                                                                                       Aug 2024-present
 LexAuthority - AI-Powered Legal Search Platform (Feb 2025 - Present) Link
-* Built a Selenium scraping pipeline collecting 1.5M+ documents from Highcourt portals — solved CAPTCHA barriers by integrating Nebius AI vision model API: capturing screenshots via Selenium, sending base64 encoded images for inference, and programmatically injecting responses to unblock navigation  
-* Built an async Python pipeline (aiofiles + threading) to process 200K+ PDFs — sent documents to a self-hosted vLLM inference server to extract structured fields (party names, case numbers, dates, judges, headnotes) with error logging and resume support
-* Built a semantic search API using FastAPI + ChromaDB — converted user queries to vectors and retrieved relevant documents via cosine similarity search over AI-generated legal headnotes,
-* Deployed Qwen3-35B on Vast.ai (A100 80GB / RTX 6000) using vLLM with FP8 quantization and 131K context length — secured inference endpoint via SSH tunnel with key-based auth; configured OpenCode CLI against the same endpoint for team-wide AI-assisted development
-* Maintained and updated Elasticsearch indices — modified and corrected field-level data monthly to keep records accurate across 4 production applications .
-* Built a Flask API that accepts text input, runs LLM inference via Nebius AI, and returns AI-generated headnotes and headlines — integrated into an Angular frontend for one-click content generation  
+* Unblocked scraping across Highcourt portals protected by CAPTCHAs by capturing screenshots via Selenium, sending base64 images to Nebius AI vision API for inference, and injecting responses programmatically to collect 1.5M+ legal documents
+* Processed 18M PDFs across a 4-person team using an async Python pipeline (aiofiles + threading), routed documents to a self-hosted vLLM server to extract structured fields (party names, case numbers, dates, judges, headnotes) with error logging and resume support so no run started from scratch
+* Built a semantic search API with FastAPI + ChromaDB that converted user queries into vectors and retrieved relevant documents via cosine similarity over AI-generated legal headnotes
+* Deployed Qwen3-35B on Vast.ai (A100 80GB / RTX 6000) with vLLM, FP8 quantization, and 262K context length, secured the inference endpoint over SSH tunnel with key-based auth, and configured it as a shared dev endpoint for the entire team
+* Owned monthly Elasticsearch index maintenance across 4 production applications, corrected field-level data and pushed schema updates to keep records accurate at scale
+* Built a Flask API that runs LLM inference via Nebius AI to generate legal headnotes and headlines from raw text, integrated into an Angular frontend so editors could generate content in one click
 PROJECTS
 ________________
 
