@@ -94,7 +94,13 @@ Vite environment values are public client configuration. Never put secrets in th
 
 ## Deploy
 
-Deploy only `dist/` to a static host. Configure an SPA fallback to `index.html` for direct project/article links. `public/_redirects` provides a fallback rule for compatible hosts; other hosts need their equivalent configuration.
+Deploy only `dist/` as the public site. Direct links, new tabs, and refreshes need the host to serve `index.html` at page URLs while preserving the requested URL, so React Router can render the correct page.
+
+- **Vercel:** the root `vercel.json` supplies the SPA rewrite. Deploy from the project root with the Vite preset and `dist` output directory so Vercel reads this configuration. Redeploy after adding or changing it.
+- **Netlify / Cloudflare Pages:** `public/_redirects` is copied into `dist/` by Vite and supplies the SPA fallback. Publish `dist/`, including `_redirects`.
+- **Other hosts:** configure an internal fallback to `/index.html` for requests that do not match an existing file. For example, Nginx uses `try_files $uri $uri/ /index.html;` in the site's `location /` block. A plain file server without an SPA fallback cannot serve clean React Router URLs directly.
+
+After deployment, paste `/learning`, `/projects`, `/projects/flinkoo`, `/blog`, `/writing`, `/about`, and `/contact` URLs directly into a new tab and refresh each. Project details should render at their original URLs, `/writing` should redirect to `/blog`, and an unknown page should render the site's friendly 404. Also check `/resume.pdf` and an image URL still return their actual files. Native article URLs can be checked once a public post is added.
 
 Before launch, configure production sharing metadata in `index.html` and add canonical tags/sitemap if needed. Metadata currently updates in the browser, so some social crawlers will only see the HTML defaults. Server rendering is outside this frontend-only project.
 
