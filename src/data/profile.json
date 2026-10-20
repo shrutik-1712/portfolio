@@ -1,0 +1,22 @@
+{
+  "name": "Shrutik",
+  "tagline": "Backend engineer. Learning keyboard. Building things, useful and otherwise.",
+  "intro": "A collection of things I’ve built, things I’m learning, and things that probably didn’t need to exist.",
+  "about": "I’m Shrutik Dawane, a backend engineer in Mumbai. I build Python APIs, automation systems, search infrastructure, and LLM-powered workflows. This is the other side: interests, little moments, and things I do away from a screen. More of it will find its way here as life happens.",
+  "offscreen": {
+    "title": "Life, off-screen.",
+    "intro": "Interests, little moments, and whatever catches my attention outside the tabs."
+  },
+  "aboutIsSample": false,
+  "portrait": "/images/shrutik.png",
+  "portraitIsPlaceholder": false,
+  "latestX": {
+    "url": null,
+    "excerpt": "A thought goes here. A rabbit hole follows. Add a pinned post to bring this corner to life.",
+    "postedAt": null
+  },
+  "youtube": {
+    "playlistId": "PLHMQJgI6fQ7c",
+    "label": "The rabbit-hole queue"
+  }
+}

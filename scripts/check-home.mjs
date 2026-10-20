@@ -1,0 +1,31 @@
+import { chromium } from '@playwright/test';
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+fs.mkdirSync('artifacts',{recursive:true});
+const browser=await chromium.launch({headless:true,...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH?{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH}:{channel:'chrome'})});
+const errors=[];
+const page=await browser.newPage();
+page.on('pageerror',error=>errors.push(error.message));
+for(const width of [1440,900,390,320]) {
+ await page.setViewportSize({width,height:1000});
+ await page.goto('http://127.0.0.1:5173');
+ await page.evaluate(()=>document.fonts.ready);
+ await page.screenshot({path:`artifacts/home-${width}.png`,fullPage:true});
+ console.log(JSON.stringify({width,layout:await page.locator('.bento > .panel').evaluateAll(nodes=>nodes.map(n=>{const r=n.getBoundingClientRect();return {card:n.className,x:Math.round(r.x),y:Math.round(r.y),w:Math.round(r.width),h:Math.round(r.height)};})),overflow:await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)}));
+}
+await page.getByRole('button',{name:/OnlyFans/}).click();
+await page.waitForTimeout(150);
+assert.ok(await page.getByRole('dialog').isVisible(),'OnlyFans popup remains open after StrictMode effect replay');
+assert.equal(await page.getByRole('link',{name:'Follow me on X'}).getAttribute('href'),'https://x.com/DawaneShrutik');
+await page.keyboard.press('Escape');
+assert.equal(await page.getByRole('dialog').count(),0,'Escape closes the popup');
+await page.getByRole('button',{name:/OnlyFans/}).click();
+assert.ok(await page.getByRole('dialog').isVisible(),'Popup opens again');
+await page.getByRole('button',{name:'Close dialog'}).click();
+assert.equal(await page.getByRole('dialog').count(),0,'Close button dismisses popup');
+await page.goto('http://127.0.0.1:5173/contact');
+await page.getByRole('button',{name:/OnlyFans/}).click();
+assert.ok(await page.getByRole('dialog').isVisible(),'Contact popup works too');
+assert.deepEqual(errors,[],'No browser runtime errors');
+console.log('OnlyFans: opening, reopening, Escape, close button, X destination and Contact checks passed.');
+await browser.close();

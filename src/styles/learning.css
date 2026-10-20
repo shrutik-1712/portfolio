@@ -1,0 +1,23 @@
+.learning-notebooks { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; }
+.learning-notebook { min-width:0; padding:24px; background:#181e18; border-radius:12px; scroll-margin-top:24px; }
+.learning-notebook header h2 { font-size:25px; letter-spacing:-.025em; }
+.learning-notebook header p { font-size:13px; line-height:1.7; margin-top:10px; color:var(--muted); }
+.notebook-posts { margin-top:24px; }
+.notebook-post { border-top:1px solid var(--rule); }
+.notebook-post:last-child { border-bottom:1px solid var(--rule); }
+.notebook-post summary { cursor:pointer; padding:16px 0; font-size:14px; line-height:1.6; }
+.notebook-post summary .sample { margin-left:10px; vertical-align:middle; }
+.notebook-post[open] summary { color:var(--color-lime); }
+.notebook-post article { padding:0 0 20px; }
+.notebook-post article p { font-size:13px; line-height:1.8; margin-top:12px; }
+.notebook-post .note-feeling { color:var(--muted); }
+.notebook-post .text-link { margin-top:16px; font-size:12px; }
+.notebook-empty { padding-block:16px; font-size:13px; color:var(--muted); }
+.projects-page .project-archive { margin-top:0; }
+.project-links { display:flex; flex-wrap:wrap; align-items:center; gap:12px 20px; margin-top:16px; }
+.project-links .text-link { font-size:12px; text-decoration:underline; text-underline-offset:4px; }
+@media(max-width:640px) {
+ .learning-notebooks { grid-template-columns:minmax(0,1fr); gap:18px; }
+ .learning-notebook { padding:20px; }
+ .learning-notebook header h2 { font-size:23px; }
+}

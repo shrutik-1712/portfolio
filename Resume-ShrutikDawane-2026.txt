@@ -1,39 +1,48 @@
-﻿SHRUTIK DAWANE
-Bhandup. Mumbai | LinkedIn | shrutikdawane1712@gmail.com | +91 9967371345| Portfolio | Github
-PROFESSIONAL SUMMARY
-________________
-
-Backend Python Engineer with hands-on startup experience building data pipelines and LLM-based backend systems. Work spans large-scale document scraping, PDF processing, RAG pipeline development, Elasticsearch data workflows, and self-hosted LLM inference on GPU infrastructure. Used to owning backend features end to end with minimal oversight.  
-SKILLS
-________________
-
-Languages: Python,Go
-Backend: FastAPI, Flask, REST APIs, GraphQL
-LLM Systems: Claude, Gemini, LLaMA, Qwen, RAG pipelines 
-Vector & Inference: ChromaDB, vLLM 
-Databases & Search: Elasticsearch, MongoDB, MySQL 
-Data & Scraping: Pandas, Selenium 
-Infra: Vast.ai GPU deployment, Linux/Ubuntu(SSH) 
-Tools: Git, cURL, Claude Code, OpenCode CLI, Codex  
-WORK EXPERIENCE
-
-________________
-ALL MR ONLINE                                                                                                  Mumbai, MH
-Python Backend Engineer                                                                                       Aug 2024-present
-* Developed Python/Selenium scraping pipelines for all 25 Indian High Court portals, converting CAPTCHA screenshots to base64 and routing them to Claude/Nebius multimodal APIs for inference, enabling collection of 1.5M+ legal documents. 
-* Built an asynchronous Python pipeline that processed 18M legal PDFs over 2 months, extracting text, generating LLM-based headnotes and metadata, and storing outputs in OpenSearch with checkpointing and error logging to prevent costly reruns.
-* Built a FastAPI semantic search and RAG pipeline for 18M legal documents, combining Qdrant vector retrieval, OpenSearch metadata enrichment, and LLM-based intent recognition to answer plain-English legal queries for lawyers and legal professionals. 
-* Deployed and secured a self-hosted vLLM coding assistant on Vast.ai GPUs, enabling 5 developers to use OpenCode CLI over local SSH tunnels and reducing reliance on paid coding models by $1,000+.
-* Owned monthly Elasticsearch index maintenance across 4 production applications, corrected field-level data and pushed schema updates to keep records accurate at scale
-* Built a production Flask API using Nebius AI to generate structured legal headnotes and headlines for 180–210 judgments per month, integrating outputs into an Angular editor workflow and reducing review time by 90%.
+﻿Shrutik Dawane
+LinkedIn: shrutik-dawane GitHub: shrutik-1712
+Portfolio: shrutik-dawane
+Email: shrutikdawane1712@gmail.com
+Mobile: +91-9967371345
+Backend engineer with about 1 year 8 months of experience building production data pipelines, search APIs, and LLM
+workflows in Python. Owned a Temporal-orchestrated ingestion pipeline and a search backend over 18M documents
+(Qdrant, OpenSearch, FastAPI).
+EXPERIENCE
+Python Backend Engineer
+ALL MR ONLINE • Legal Tech
+Mumbai, India
+Mar 2025 – Nov 2026
+• Owned an end-to-end Temporal pipeline for daily Supreme Court judgment ingestion: Selenium
+collection, VLM CAPTCHA solving, LLM metadata and headnote extraction, embeddings, and storage in
+Qdrant, OpenSearch, and S3, with duplicate checks so only new judgments are processed.
+• Built the backend search API for Lexabase: query embeddings (RAG) and retrieval over 18M documents
+in Qdrant, with downstream LLM workflows for legal analysis.
+• Built Python/Selenium scrapers for all 25 Indian High Courts, downloading publicly available judgment PDFs
+(CAPTCHAs captured with Pillow and solved by vision-model inference), with retry-and-alert handling and
+throttling ( 10 down-loads/min) to avoid IP blocks, feeding a corpus of 20M+ judgments.
+• Built secured REST services across multiple servers (Nginx reverse proxy, bearer-token auth), including
+CPU PyTorch embedding inference and JSON validation before ingestion. Deployed and operated them on
+Ubuntu with Nginx, cron, and Git.
+• Ran Qwen and DeepSeek on self-hosted vLLM (rented GPU instances) to extract and structure metadata
+from 75 years of High Court and Supreme Court judgments.
+• Built Flask automation scripts and internal LLM tools that reduced repetitive document processing by 70%.
+• Developed automation scripts for 3 production-based products in python and streamlit that reduced the
+workload by 90%
 PROJECTS
-________________
-
-Freelance Project |  Python, FastAPI, ReactJS | dbplorg.com
-Built and deployed a REST API backend for a local library management system using FastAPI and MongoDB, set up domain and HTTPS for a paying client 
-        
-EDUCATION 
-
-________________
-University of Mumbai | May 2024                                                                                        
-Masters of Computer Applications
+Dbplorg.com (Freelance library website – FastAPI, MongoDB, React)
+• Independently built and delivered a full-stack library website for a paying client, with a React
+frontend and a FastAPI/MongoDB backend for admin-managed books, events, and content.
+Flinkoo (YC 2025 application) – python, llm inferences, pandas
+• Built a prototype AI finance application and applied to YC 2025.
+TECHNICAL SKILLS
+Languages: Python · Go · JavaScript
+Frameworks: FastAPI · Flask · Temporal · Gin
+AI & ML: vLLM · RAG · Embeddings · PyTorch · scikit-learn · Pandas
+Databases & Search: MongoDB · MySQL · Qdrant · OpenSearch · Elasticsearch
+Tools & Infra: Git · Docker · Nginx · Linux · S3 · Selenium · Postman
+EDUCATION
+University of Mumbai
+Master of Computer Applications (MCA)
+Mumbai, India
+Nov 2022 – May 2024
+• Coursework: Machine Learning, Data Structures, Computer Networks, DBMS, OOPS, Operating
+Systems, Cloud Computing

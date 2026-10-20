@@ -1,0 +1,38 @@
+[
+  {
+    "id": "dsa",
+    "slug": "dsa",
+    "title": "DSA",
+    "subject": "DSA",
+    "summary": "Data structures, algorithms, and the reasoning behind a solution.",
+    "notes": [],
+    "relatedProjectIds": []
+  },
+  {
+    "id": "lld",
+    "slug": "lld",
+    "title": "LLD",
+    "subject": "LLD",
+    "summary": "Low-level design: objects, responsibilities, interfaces, and small design decisions.",
+    "notes": [],
+    "relatedProjectIds": []
+  },
+  {
+    "id": "system-design",
+    "slug": "system-design",
+    "title": "System design",
+    "subject": "System design",
+    "summary": "Notes on how systems fit together, their constraints, and the tradeoffs involved.",
+    "notes": [],
+    "relatedProjectIds": []
+  },
+  {
+    "id": "hld",
+    "slug": "hld",
+    "title": "HLD",
+    "subject": "HLD",
+    "summary": "High-level design: the larger components, boundaries, and connections.",
+    "notes": [],
+    "relatedProjectIds": []
+  }
+]

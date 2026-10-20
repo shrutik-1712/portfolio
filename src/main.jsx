@@ -1,0 +1,12 @@
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import { MotionConfig } from 'motion/react';
+import '@fontsource-variable/dm-sans';
+import '@fontsource-variable/space-grotesk';
+import './styles/index.css';
+import './styles/home.css';
+import './styles/learning.css';
+import './styles/refinements.css';
+import App from './App';
+createRoot(document.getElementById('root')).render(<React.StrictMode><BrowserRouter><MotionConfig reducedMotion="user"><App /></MotionConfig></BrowserRouter></React.StrictMode>);

@@ -1,0 +1,602 @@
+[
+  {
+    "id": "mcculloch-pitts",
+    "text": "Warren McCulloch and Walter Pitts formulated the first mathematical model of a biological neuron in 1943, proving that networks of simple binary threshold units could compute any logical proposition.",
+    "sourceTitle": "A Logical Calculus of the Ideas Immanent in Nervous Activity · 1943",
+    "sourceUrl": "https://doi.org/10.1007/BF02478259"
+  },
+  {
+    "id": "shannon-information-theory",
+    "text": "Claude Shannon established modern digital communications and information theory in 1948 by mathematically defining entropy, channel capacity, and the fundamental limit of data compression.",
+    "sourceTitle": "A Mathematical Theory of Communication · Bell System Technical Journal, 1948",
+    "sourceUrl": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x"
+  },
+  {
+    "id": "dartmouth-proposal",
+    "text": "The phrase 'Artificial Intelligence' was officially coined in the 1955 funding proposal for the 1956 Dartmouth Summer Research Project on Artificial Intelligence.",
+    "sourceTitle": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence · 1955",
+    "sourceUrl": "http://raysolomonoff.com/dartmouth/box/dart564src7092resp.pdf"
+  },
+  {
+    "id": "perceptron",
+    "text": "Frank Rosenblatt developed the Perceptron algorithm on custom hardware at Cornell in 1958, establishing one of the earliest learnable linear classifiers.",
+    "sourceTitle": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain · 1958",
+    "sourceUrl": "https://doi.org/10.1037/h0042519"
+  },
+  {
+    "id": "eliza",
+    "text": "Joseph Weizenbaum created ELIZA in 1966 at MIT, demonstrating that simple pattern-matching and scripted responses could lead human users to attribute empathy and intelligence to a computer program.",
+    "sourceTitle": "ELIZA—a computer program for the study of natural language communication between man and machine · CACM, 1966",
+    "sourceUrl": "https://doi.org/10.1145/365153.365168"
+  },
+  {
+    "id": "nearest-neighbor",
+    "text": "Thomas Cover and Peter Hart proved in 1967 that the nearest-neighbor classification decision rule has an asymptotic probability of error bounded by at most twice the optimal Bayes error rate.",
+    "sourceTitle": "Nearest neighbor pattern classification · IEEE Transactions on Information Theory, 1967",
+    "sourceUrl": "https://doi.org/10.1109/TIT.1967.1053964"
+  },
+  {
+    "id": "a-star-search",
+    "text": "Peter Hart, Nils Nilsson, and Bertram Raphael published the A* graph-search algorithm in 1968, proving its optimality and completeness when guided by an admissible heuristic.",
+    "sourceTitle": "A Formal Basis for the Heuristic Determination of Minimum Cost Paths · IEEE TSSC, 1968",
+    "sourceUrl": "https://doi.org/10.1109/TSSC.1968.300136"
+  },
+  {
+    "id": "perceptrons-book",
+    "text": "Marvin Minsky and Seymour Papert's 1969 book proved that single-layer perceptrons could not solve the XOR problem, unintentionally dampening neural network research funding for over a decade.",
+    "sourceTitle": "Perceptrons: An Introduction to Computational Geometry · MIT Press, 1969",
+    "sourceUrl": "https://mitpress.mit.edu/9780262631112/perceptrons/"
+  },
+  {
+    "id": "backpropagation",
+    "text": "David Rumelhart, Geoffrey Hinton, and Ronald Williams popularized the backpropagation algorithm in 1986, showing that gradient descent can effectively train internal representations across multi-layer neural networks.",
+    "sourceTitle": "Learning representations by back-propagating errors · Nature, 1986",
+    "sourceUrl": "https://doi.org/10.1038/323533a0"
+  },
+  {
+    "id": "hopfield-networks",
+    "text": "John Hopfield introduced associative neural networks in 1982, linking recurrent computational networks directly to physical spin-glass energy landscapes.",
+    "sourceTitle": "Neural networks and physical systems with emergent collective computational abilities · PNAS, 1982",
+    "sourceUrl": "https://doi.org/10.1073/pnas.79.8.2554"
+  },
+  {
+    "id": "boltzmann-machines",
+    "text": "David Ackley, Geoffrey Hinton, and Terrence Sejnowski introduced Boltzmann machines in 1985 as stochastic recurrent neural networks governed by statistical physics.",
+    "sourceTitle": "A Learning Algorithm for Boltzmann Machines · Cognitive Science, 1985",
+    "sourceUrl": "https://doi.org/10.1016/S0364-0213(85)80012-4"
+  },
+  {
+    "id": "q-learning",
+    "text": "Chris Watkins introduced Q-learning in his 1989 PhD dissertation, providing a model-free temporal difference algorithm that converges to optimal control policies without an environmental transition model.",
+    "sourceTitle": "Learning from Delayed Rewards · PhD Thesis, Cambridge University, 1989",
+    "sourceUrl": "https://www.cs.rhul.ac.uk/~chrisw/thesis.html"
+  },
+  {
+    "id": "td-gammon",
+    "text": "Gerald Tesauro developed TD-Gammon in 1992 using temporal difference learning and a simple feedforward neural network, reaching world-class master performance at backgammon through self-play.",
+    "sourceTitle": "Temporal Difference Learning and TD-Gammon · CACM, 1995",
+    "sourceUrl": "https://doi.org/10.1145/203330.203343"
+  },
+  {
+    "id": "support-vector-machines",
+    "text": "Corinna Cortes and Vladimir Vapnik introduced modern Support Vector Machines in 1995, formulating classification as a convex quadratic optimization problem with margin maximization.",
+    "sourceTitle": "Support-Vector Networks · Machine Learning, 1995",
+    "sourceUrl": "https://doi.org/10.1007/BF00994018"
+  },
+  {
+    "id": "adaboost",
+    "text": "Yoav Freund and Robert Schapire introduced AdaBoost in 1995, proving that an ensemble of weak base learners could theoretically be boosted into an arbitrarily strong predictor.",
+    "sourceTitle": "A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting · JCSS, 1997",
+    "sourceUrl": "https://doi.org/10.1006/jcss.1997.1504"
+  },
+  {
+    "id": "lstm",
+    "text": "Sepp Hochreiter and Jürgen Schmidhuber proposed the Long Short-Term Memory (LSTM) cell in 1997, solving the vanishing gradient problem in recurrent networks using constant error carousels and gates.",
+    "sourceTitle": "Long Short-Term Memory · Neural Computation, 1997",
+    "sourceUrl": "https://doi.org/10.1162/neco.1997.9.8.1735"
+  },
+  {
+    "id": "deep-blue",
+    "text": "IBM's Deep Blue defeated World Chess Champion Garry Kasparov in a six-game match in 1997, marking the first time a machine defeated a reigning world champion under tournament time controls.",
+    "sourceTitle": "Deep Blue · Artificial Intelligence Journal, 2002",
+    "sourceUrl": "https://doi.org/10.1016/S0004-3702(01)00129-1"
+  },
+  {
+    "id": "lenet-5",
+    "text": "Yann LeCun and colleagues introduced LeNet-5 in 1998, establishing convolutional layers, weight sharing, and sub-sampling as the standard paradigm for optical character recognition.",
+    "sourceTitle": "Gradient-based learning applied to document recognition · Proceedings of the IEEE, 1998",
+    "sourceUrl": "https://doi.org/10.1109/5.726791"
+  },
+  {
+    "id": "pagerank",
+    "text": "Larry Page and Sergey Brin introduced PageRank in 1998, modeling web navigation as a stationary probability distribution of a random surfer across the graph of hyperlinks.",
+    "sourceTitle": "The Anatomy of a Large-Scale Hypertextual Web Search Engine · Computer Networks, 1998",
+    "sourceUrl": "https://doi.org/10.1016/S0169-7552(98)00110-X"
+  },
+  {
+    "id": "random-forests",
+    "text": "Leo Breiman introduced Random Forests in 2001, combining bootstrap aggregation with random feature subspace selection to produce low-bias, low-variance decision tree ensembles.",
+    "sourceTitle": "Random Forests · Machine Learning, 2001",
+    "sourceUrl": "https://doi.org/10.1023/A:1010933404324"
+  },
+  {
+    "id": "gradient-boosting-machine",
+    "text": "Jerome Friedman formulated Gradient Boosting in 2001, unifying AdaBoost and regression trees under a general framework of functional gradient descent over arbitrary differentiable loss functions.",
+    "sourceTitle": "Greedy Function Approximation: A Gradient Boosting Machine · Annals of Statistics, 2001",
+    "sourceUrl": "https://doi.org/10.1214/aos/1013203451"
+  },
+  {
+    "id": "lda-blei",
+    "text": "David Blei, Andrew Ng, and Michael Jordan proposed Latent Dirichlet Allocation (LDA) in 2003, creating a generative three-level hierarchical Bayesian model for discrete text corpora.",
+    "sourceTitle": "Latent Dirichlet Allocation · JMLR, 2003",
+    "sourceUrl": "https://www.jmlr.org/papers/v3/blei03a.html"
+  },
+  {
+    "id": "deep-belief-networks",
+    "text": "Geoffrey Hinton, Simon Osindero, and Yee-Whye Teh published the Deep Belief Network in 2006, demonstrating greedy layer-wise unsupervised pre-training using Restricted Boltzmann Machines.",
+    "sourceTitle": "A Fast Learning Algorithm for Deep Belief Nets · Neural Computation, 2006",
+    "sourceUrl": "https://doi.org/10.1162/neco.2006.18.7.1527"
+  },
+  {
+    "id": "mcts",
+    "text": "Rémi Coulom formalized Monte Carlo Tree Search (MCTS) in 2006, creating a heuristic search algorithm that guides game-tree evaluations using stochastic simulations.",
+    "sourceTitle": "Efficient Selectivity and Backup Operators in Monte-Carlo Tree Search · Computers and Games, 2006",
+    "sourceUrl": "https://doi.org/10.1007/978-3-540-75538-8_7"
+  },
+  {
+    "id": "tsne",
+    "text": "Laurens van der Maaten and Geoffrey Hinton introduced t-SNE in 2008, using Student-t distributions to solve the crowding problem when embedding high-dimensional data into low dimensions.",
+    "sourceTitle": "Visualizing Data using t-SNE · JMLR, 2008",
+    "sourceUrl": "https://www.jmlr.org/papers/v9/vandermaaten08a.html"
+  },
+  {
+    "id": "relu-deep-nets",
+    "text": "Vinod Nair and Geoffrey Hinton demonstrated in 2010 that Rectified Linear Units (ReLU) significantly improved restricted Boltzmann machines over traditional sigmoidal activations.",
+    "sourceTitle": "Rectified Linear Units Improve Restricted Boltzmann Machines · ICML, 2010",
+    "sourceUrl": "https://icml.cc/Conferences/2010/papers/432.pdf"
+  },
+  {
+    "id": "alexnet",
+    "text": "Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton won the 2012 ImageNet challenge with AlexNet, halving error rates and igniting the deep learning revolution via dual-GPU acceleration and ReLU activations.",
+    "sourceTitle": "ImageNet Classification with Deep Convolutional Neural Networks · NeurIPS, 2012",
+    "sourceUrl": "https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf"
+  },
+  {
+    "id": "word2vec",
+    "text": "Tomas Mikolov and colleagues at Google introduced Word2Vec in 2013, proving that Skip-gram and Continuous Bag-of-Words models learn dense vectors that preserve semantic vector arithmetic like King - Man + Woman = Queen.",
+    "sourceTitle": "Distributed Representations of Words and Phrases and their Compositionality · NeurIPS, 2013",
+    "sourceUrl": "https://arxiv.org/abs/1310.4546"
+  },
+  {
+    "id": "deep-q-networks",
+    "text": "DeepMind introduced Deep Q-Networks (DQN) in 2013, stabilizing deep reinforcement learning via experience replay and target networks to learn directly from raw Atari 2600 screen pixels.",
+    "sourceTitle": "Playing Atari with Deep Reinforcement Learning · DeepMind, arXiv, 2013",
+    "sourceUrl": "https://arxiv.org/abs/1312.5602"
+  },
+  {
+    "id": "variational-autoencoders",
+    "text": "Diederik Kingma and Max Welling introduced the Variational Autoencoder (VAE) in 2013, using the reparameterization trick to allow backpropagation through stochastic latent variables.",
+    "sourceTitle": "Auto-Encoding Variational Bayes · ICLR, 2014",
+    "sourceUrl": "https://arxiv.org/abs/1312.6114"
+  },
+  {
+    "id": "dropout",
+    "text": "Nitish Srivastava, Geoffrey Hinton, and colleagues published Dropout in 2014, showing that randomly deactivating neurons during training prevents co-adaptation and acts as an efficient ensemble method.",
+    "sourceTitle": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting · JMLR, 2014",
+    "sourceUrl": "https://jmlr.org/papers/v15/srivastava14a.html"
+  },
+  {
+    "id": "gans",
+    "text": "Ian Goodfellow and co-authors proposed Generative Adversarial Networks (GANs) in 2014, framing generative modeling as a minimax game between a generator and a discriminator.",
+    "sourceTitle": "Generative Adversarial Nets · NeurIPS, 2014",
+    "sourceUrl": "https://arxiv.org/abs/1406.2661"
+  },
+  {
+    "id": "seq2seq",
+    "text": "Ilya Sutskever, Oriol Vinyals, and Quoc Le introduced the Sequence to Sequence (Seq2Seq) architecture in 2014, using multilayered LSTMs to map arbitrary-length inputs to outputs.",
+    "sourceTitle": "Sequence to Sequence Learning with Neural Networks · NeurIPS, 2014",
+    "sourceUrl": "https://arxiv.org/abs/1409.3215"
+  },
+  {
+    "id": "bahdanau-attention",
+    "text": "Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio introduced additive attention in 2014, freeing encoder-decoder models from compressing entire source sentences into single fixed-size vectors.",
+    "sourceTitle": "Neural Machine Translation by Jointly Learning to Align and Translate · ICLR, 2015",
+    "sourceUrl": "https://arxiv.org/abs/1409.0473"
+  },
+  {
+    "id": "glove",
+    "text": "Jeffrey Pennington, Richard Socher, and Christopher Manning created GloVe in 2014, combining the advantages of global matrix factorization and local log-bilinear context window methods.",
+    "sourceTitle": "GloVe: Global Vectors for Word Representation · EMNLP, 2014",
+    "sourceUrl": "https://aclanthology.org/D14-1162/"
+  },
+  {
+    "id": "vggnet",
+    "text": "Karen Simonyan and Andrew Zisserman introduced VGGNet in 2014, showing that stacking very small 3x3 convolutional filters was strictly superior to using larger receptive fields.",
+    "sourceTitle": "Very Deep Convolutional Networks for Large-Scale Image Recognition · ICLR, 2015",
+    "sourceUrl": "https://arxiv.org/abs/1409.1556"
+  },
+  {
+    "id": "adam-optimizer",
+    "text": "Diederik Kingma and Jimmy Ba published the Adam optimizer in 2014, combining momentum and adaptive learning rates computed from first and second moments of the gradients.",
+    "sourceTitle": "Adam: A Method for Stochastic Optimization · ICLR, 2015",
+    "sourceUrl": "https://arxiv.org/abs/1412.6980"
+  },
+  {
+    "id": "batch-normalization",
+    "text": "Sergey Ioffe and Christian Szegedy introduced Batch Normalization in 2015, accelerating training speeds by normalizing layer inputs per mini-batch to mitigate internal covariate shift.",
+    "sourceTitle": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift · ICML, 2015",
+    "sourceUrl": "https://arxiv.org/abs/1502.03167"
+  },
+  {
+    "id": "unet",
+    "text": "Olaf Ronneberger, Philipp Fischer, and Thomas Brox introduced the U-Net in 2015, using contracting and expanding paths linked by skip connections for precise biomedical image segmentation.",
+    "sourceTitle": "U-Net: Convolutional Networks for Biomedical Image Segmentation · MICCAI, 2015",
+    "sourceUrl": "https://arxiv.org/abs/1505.04597"
+  },
+  {
+    "id": "resnet",
+    "text": "Kaiming He and colleagues introduced Residual Networks (ResNet) in 2015, utilizing identity shortcut connections to successfully train networks exceeding 150 layers without degradation.",
+    "sourceTitle": "Deep Residual Learning for Image Recognition · CVPR, 2016",
+    "sourceUrl": "https://arxiv.org/abs/1512.03385"
+  },
+  {
+    "id": "yolo",
+    "text": "Joseph Redmon and colleagues introduced YOLO in 2015, reframing object detection as a single end-to-end regression problem straight from pixels to bounding box coordinates and class probabilities.",
+    "sourceTitle": "You Only Look Once: Unified, Real-Time Object Detection · CVPR, 2016",
+    "sourceUrl": "https://arxiv.org/abs/1506.02640"
+  },
+  {
+    "id": "faster-rcnn",
+    "text": "Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun introduced Faster R-CNN in 2015, integrating a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network.",
+    "sourceTitle": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks · NeurIPS, 2015",
+    "sourceUrl": "https://arxiv.org/abs/1506.01497"
+  },
+  {
+    "id": "alphago",
+    "text": "DeepMind's AlphaGo defeated 18-time world champion Lee Sedol 4-1 in 2016, combining deep value and policy networks with Monte Carlo Tree Search to master the game of Go.",
+    "sourceTitle": "Mastering the game of Go with deep neural networks and tree search · Nature, 2016",
+    "sourceUrl": "https://doi.org/10.1038/nature16961"
+  },
+  {
+    "id": "xgboost",
+    "text": "Tianqi Chen and Carlos Guestrin published XGBoost in 2016, delivering an ultra-scalable, cache-aware, and regularized gradient boosting system that dominated competitive data science competitions.",
+    "sourceTitle": "XGBoost: A Scalable Tree Boosting System · KDD, 2016",
+    "sourceUrl": "https://arxiv.org/abs/1603.02754"
+  },
+  {
+    "id": "layer-normalization",
+    "text": "Jimmy Ba, Jamie Ryan Kiros, and Geoffrey Hinton proposed Layer Normalization in 2016, normalizing activations across hidden features rather than across the mini-batch to excel in recurrent networks.",
+    "sourceTitle": "Layer Normalization · arXiv, 2016",
+    "sourceUrl": "https://arxiv.org/abs/1607.06450"
+  },
+  {
+    "id": "wavenet",
+    "text": "DeepMind developed WaveNet in 2016, applying dilated causal convolutions to model raw audio waveforms directly, drastically closing the gap between machine-generated and human speech.",
+    "sourceTitle": "WaveNet: A Generative Model for Raw Audio · arXiv, 2016",
+    "sourceUrl": "https://arxiv.org/abs/1609.03499"
+  },
+  {
+    "id": "gcn",
+    "text": "Thomas Kipf and Max Welling introduced Graph Convolutional Networks (GCN) in 2016, using a localized first-order approximation of spectral graph convolutions for semi-supervised node classification.",
+    "sourceTitle": "Semi-Supervised Classification with Graph Convolutional Networks · ICLR, 2017",
+    "sourceUrl": "https://arxiv.org/abs/1609.02907"
+  },
+  {
+    "id": "cyclegan",
+    "text": "Jun-Yan Zhu and colleagues introduced CycleGAN in 2017, using cycle-consistency loss to learn image-to-image translation across unpaired visual domains.",
+    "sourceTitle": "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks · ICCV, 2017",
+    "sourceUrl": "https://arxiv.org/abs/1703.10593"
+  },
+  {
+    "id": "mask-rcnn",
+    "text": "Kaiming He, Georgia Gkioxari, Piotr Dollár, and Ross Girshick introduced Mask R-CNN in 2017, introducing RoIAlign to output high-resolution pixel-level instance segmentation masks alongside bounding boxes.",
+    "sourceTitle": "Mask R-CNN · ICCV, 2017",
+    "sourceUrl": "https://arxiv.org/abs/1703.06870"
+  },
+  {
+    "id": "ppo",
+    "text": "John Schulman and colleagues at OpenAI proposed Proximal Policy Optimization (PPO) in 2017, using a clipped surrogate objective function that balances sample efficiency and mathematical stability.",
+    "sourceTitle": "Proximal Policy Optimization Algorithms · arXiv, 2017",
+    "sourceUrl": "https://arxiv.org/abs/1707.06347"
+  },
+  {
+    "id": "alphazero",
+    "text": "DeepMind introduced AlphaZero in 2017, mastering chess, shogi, and Go entirely from scratch with a single generalized reinforcement learning algorithm using zero human domain knowledge.",
+    "sourceTitle": "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm · arXiv, 2017",
+    "sourceUrl": "https://arxiv.org/abs/1712.01815"
+  },
+  {
+    "id": "elmo",
+    "text": "Matthew Peters and colleagues introduced ELMo in 2018, deriving deep contextualized word representations from bidirectional language models to capture word polysemy across complex sentences.",
+    "sourceTitle": "Deep contextualized word representations · NAACL, 2018",
+    "sourceUrl": "https://arxiv.org/abs/1802.05365"
+  },
+  {
+    "id": "gpt-1",
+    "text": "Alec Radford and OpenAI researchers introduced the original Generative Pre-trained Transformer (GPT-1) in 2018, demonstrating that generative causal pre-training on unlabeled text followed by discriminative fine-tuning yielded state-of-the-art NLP results.",
+    "sourceTitle": "Improving Language Understanding by Generative Pre-Training · OpenAI, 2018",
+    "sourceUrl": "https://openai.com/research/language-unsupervised"
+  },
+  {
+    "id": "bert",
+    "text": "Jacob Devlin and Google AI researchers introduced BERT in 2018, training bidirectional language representations using masked language modeling and next sentence prediction.",
+    "sourceTitle": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding · NAACL, 2019",
+    "sourceUrl": "https://arxiv.org/abs/1810.04805"
+  },
+  {
+    "id": "stylegan",
+    "text": "Tero Karras and NVIDIA researchers proposed StyleGAN in 2018, redesigning generative adversarial architectures using adaptive instance normalization to control high-level attributes like pose and expression.",
+    "sourceTitle": "A Style-Based Generator Architecture for Generative Adversarial Networks · CVPR, 2019",
+    "sourceUrl": "https://arxiv.org/abs/1812.04948"
+  },
+  {
+    "id": "gpt-2",
+    "text": "OpenAI published GPT-2 in 2019, showing that scaling an autoregressive 1.5B parameter language model on unfiltered internet data allowed it to learn diverse zero-shot tasks without explicit supervision.",
+    "sourceTitle": "Language Models are Unsupervised Multitask Learners · OpenAI, 2019",
+    "sourceUrl": "https://openai.com/research/better-language-models"
+  },
+  {
+    "id": "roberta",
+    "text": "Yinhan Liu and Meta AI researchers released RoBERTa in 2019, showing that BERT was substantially undertrained and that removing next-sentence prediction, training longer, and using larger batches yielded superior performance.",
+    "sourceTitle": "RoBERTa: A Robustly Optimized BERT Pretraining Approach · arXiv, 2019",
+    "sourceUrl": "https://arxiv.org/abs/1907.11692"
+  },
+  {
+    "id": "t5",
+    "text": "Colin Raffel and Google researchers introduced T5 in 2019, converting all downstream NLP tasks into a unified text-to-text format evaluated on the Cleaned Colossal Crawled Corpus (C4).",
+    "sourceTitle": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer · JMLR, 2020",
+    "sourceUrl": "https://arxiv.org/abs/1910.10683"
+  },
+  {
+    "id": "neural-scaling-laws",
+    "text": "Jared Kaplan and OpenAI researchers published empirical neural scaling laws in 2020, revealing that cross-entropy loss follows strict power-law relationships with compute budget, dataset size, and parameter count.",
+    "sourceTitle": "Scaling Laws for Neural Language Models · arXiv, 2020",
+    "sourceUrl": "https://arxiv.org/abs/2001.08361"
+  },
+  {
+    "id": "nerf",
+    "text": "Ben Mildenhall and colleagues introduced Neural Radiance Fields (NeRF) in 2020, using multilayer perceptrons to synthesize novel photorealistic 3D views of complex scenes from sparse 2D image inputs.",
+    "sourceTitle": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis · ECCV, 2020",
+    "sourceUrl": "https://arxiv.org/abs/2003.08934"
+  },
+  {
+    "id": "gpt-3",
+    "text": "Tom Brown and OpenAI researchers published the 175-billion parameter GPT-3 in 2020, demonstrating that massive autoregressive language models are capable in-context few-shot learners.",
+    "sourceTitle": "Language Models are Few-Shot Learners · NeurIPS, 2020",
+    "sourceUrl": "https://arxiv.org/abs/2005.14165"
+  },
+  {
+    "id": "ddpm",
+    "text": "Jonathan Ho, Ajay Jain, and Pieter Abbeel introduced Denoising Diffusion Probabilistic Models (DDPM) in 2020, connecting non-equilibrium thermodynamics to variational inference for photorealistic generative imaging.",
+    "sourceTitle": "Denoising Diffusion Probabilistic Models · NeurIPS, 2020",
+    "sourceUrl": "https://arxiv.org/abs/2006.11239"
+  },
+  {
+    "id": "vision-transformer",
+    "text": "Alexey Dosovitskiy and Google researchers introduced the Vision Transformer (ViT) in 2020, demonstrating that processing flattened image patches directly through standard Transformer encoders rivals convolutional nets at scale.",
+    "sourceTitle": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale · ICLR, 2021",
+    "sourceUrl": "https://arxiv.org/abs/2010.11929"
+  },
+  {
+    "id": "clip",
+    "text": "Alec Radford and OpenAI researchers introduced CLIP in 2021, training a vision-language model on 400 million image-text pairs via contrastive learning to enable robust zero-shot classification.",
+    "sourceTitle": "Learning Transferable Visual Models From Natural Language Supervision · ICML, 2021",
+    "sourceUrl": "https://arxiv.org/abs/2103.00020"
+  },
+  {
+    "id": "alphafold-2",
+    "text": "John Jumper and DeepMind researchers unveiled AlphaFold 2 in 2021, solving the 50-year-old protein folding grand challenge by predicting 3D atomic structures with experimental precision.",
+    "sourceTitle": "Highly accurate protein structure prediction with AlphaFold · Nature, 2021",
+    "sourceUrl": "https://doi.org/10.1038/s41586-021-03819-2"
+  },
+  {
+    "id": "lora",
+    "text": "Edward Hu and Microsoft researchers introduced LoRA in 2021, freezing pre-trained model weights and injecting low-rank decomposed trainable matrices to cut fine-tuning memory overhead by orders of magnitude.",
+    "sourceTitle": "LoRA: Low-Rank Adaptation of Large Language Models · ICLR, 2022",
+    "sourceUrl": "https://arxiv.org/abs/2106.09685"
+  },
+  {
+    "id": "chain-of-thought",
+    "text": "Jason Wei and Google researchers discovered Chain-of-Thought prompting in 2022, proving that inducing step-by-step reasoning sequences drastically unlocks complex arithmetic, symbolic, and commonsense abilities in LLMs.",
+    "sourceTitle": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models · NeurIPS, 2022",
+    "sourceUrl": "https://arxiv.org/abs/2201.11903"
+  },
+  {
+    "id": "chinchilla-scaling",
+    "text": "Jordan Hoffmann and DeepMind researchers published the Chinchilla scaling laws in 2022, revealing that existing large language models were significantly undertrained relative to their parameter counts.",
+    "sourceTitle": "Training Compute-Optimal Large Language Models · NeurIPS, 2022",
+    "sourceUrl": "https://arxiv.org/abs/2203.15556"
+  },
+  {
+    "id": "instructgpt",
+    "text": "Long Ouyang and OpenAI researchers published InstructGPT in 2022, demonstrating that Reinforcement Learning from Human Feedback (RLHF) reliably aligns language models with user intent.",
+    "sourceTitle": "Training language models to follow instructions with human feedback · NeurIPS, 2022",
+    "sourceUrl": "https://arxiv.org/abs/2203.02155"
+  },
+  {
+    "id": "latent-diffusion",
+    "text": "Robin Rombach and researchers introduced Latent Diffusion Models (Stable Diffusion) in 2022, routing the iterative diffusion process through a compressed latent space to achieve fast high-resolution synthesis.",
+    "sourceTitle": "High-Resolution Image Synthesis with Latent Diffusion Models · CVPR, 2022",
+    "sourceUrl": "https://arxiv.org/abs/2112.10752"
+  },
+  {
+    "id": "flashattention",
+    "text": "Tri Dao and colleagues introduced FlashAttention in 2022, utilizing GPU SRAM tiling and kernel fusion to compute exact multi-head attention without materializing intermediate quadratic $N \\times N$ attention matrices.",
+    "sourceTitle": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness · NeurIPS, 2022",
+    "sourceUrl": "https://arxiv.org/abs/2205.14135"
+  },
+  {
+    "id": "whisper",
+    "text": "Alec Radford and OpenAI researchers introduced Whisper in 2022, demonstrating that training an encoder-decoder Transformer on 680,000 hours of weakly supervised multilingual audio enables robust zero-shot transcription.",
+    "sourceTitle": "Robust Speech Recognition via Large-Scale Weak Supervision · ICML, 2023",
+    "sourceUrl": "https://arxiv.org/abs/2212.04356"
+  },
+  {
+    "id": "llama",
+    "text": "Hugo Touvron and Meta AI released the LLaMA family of open models in 2023, proving that models trained exclusively on publicly available datasets could match or exceed proprietary systems.",
+    "sourceTitle": "LLaMA: Open and Efficient Foundation Language Models · arXiv, 2023",
+    "sourceUrl": "https://arxiv.org/abs/2302.13971"
+  },
+  {
+    "id": "direct-preference-optimization",
+    "text": "Rafael Rafailov and Stanford researchers introduced Direct Preference Optimization (DPO) in 2023, deriving a closed-form substitution that optimizes policies directly from human preferences without training a reward model.",
+    "sourceTitle": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model · NeurIPS, 2023",
+    "sourceUrl": "https://arxiv.org/abs/2305.18290"
+  },
+  {
+    "id": "tree-of-thoughts",
+    "text": "Shunyu Yao and Princeton/Google DeepMind researchers introduced Tree of Thoughts (ToT) in 2023, generalizing chain-of-thought prompting into heuristic exploration across deliberate thought trees.",
+    "sourceTitle": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models · NeurIPS, 2023",
+    "sourceUrl": "https://arxiv.org/abs/2305.10601"
+  },
+  {
+    "id": "mistral-7b",
+    "text": "Albert Jiang and the Mistral AI team released Mistral 7B in 2023, pairing grouped-query attention and sliding window attention to outperform larger existing 13B and 34B models.",
+    "sourceTitle": "Mistral 7B · arXiv, 2023",
+    "sourceUrl": "https://arxiv.org/abs/2310.06825"
+  },
+  {
+    "id": "qlora",
+    "text": "Tim Dettmers and colleagues introduced QLoRA in 2023, demonstrating that backpropagating gradients through a frozen 4-bit NormalFloat quantized base model into low-rank adapters enables 65B LLM fine-tuning on a single 48GB GPU.",
+    "sourceTitle": "QLoRA: Efficient Finetuning of Quantized LLMs · NeurIPS, 2023",
+    "sourceUrl": "https://arxiv.org/abs/2305.14314"
+  },
+  {
+    "id": "deep-residual-diffusion",
+    "text": "Prafulla Dhariwal and Alex Nichol proved in 2021 that diffusion models achieve sample quality superior to state-of-the-art Generative Adversarial Networks using classifier guidance.",
+    "sourceTitle": "Diffusion Models Beat GANs on Image Synthesis · NeurIPS, 2021",
+    "sourceUrl": "https://arxiv.org/abs/2105.05233"
+  },
+  {
+    "id": "switch-transformer",
+    "text": "William Fedus, Barret Zoph, and Noam Shazeer introduced the Switch Transformer in 2021, scaling sparse Mixture-of-Experts (MoE) parameters to over a trillion weights via simplified routing.",
+    "sourceTitle": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity · JMLR, 2022",
+    "sourceUrl": "https://arxiv.org/abs/2101.03961"
+  },
+  {
+    "id": "rotary-embeddings",
+    "text": "Jianlin Su and colleagues introduced Rotary Position Embedding (RoPE) in 2021, encoding positional information into attention keys and queries via complex rotation operators.",
+    "sourceTitle": "RoFormer: Enhanced Transformer with Rotary Position Embedding · Neurocomputing, 2024",
+    "sourceUrl": "https://arxiv.org/abs/2104.09864"
+  },
+  {
+    "id": "swin-transformer",
+    "text": "Ze Liu and Microsoft researchers introduced the Swin Transformer in 2021, constructing hierarchical feature maps via shifted local windows to yield linear computational complexity with respect to image size.",
+    "sourceTitle": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows · ICCV, 2021",
+    "sourceUrl": "https://arxiv.org/abs/2103.14030"
+  },
+  {
+    "id": "constitutional-ai",
+    "text": "Yuntao Bai and Anthropic researchers introduced Constitutional AI in 2022, enabling models to critique and revise their own outputs according to a specified list of written principles.",
+    "sourceTitle": "Constitutional AI: Harmlessness from AI Feedback · Anthropic, arXiv, 2022",
+    "sourceUrl": "https://arxiv.org/abs/2212.08073"
+  },
+  {
+    "id": "k-means",
+    "text": "James MacQueen introduced the classical k-means algorithm in 1967, providing a foundational heuristic for partitioning multidimensional observations into clusters minimizing within-cluster variance.",
+    "sourceTitle": "Some methods for classification and analysis of multivariate observations · Berkeley Symposium, 1967",
+    "sourceUrl": "https://projecteuclid.org/euclid.bsmsp/1200512992"
+  },
+  {
+    "id": "dbscan",
+    "text": "Martin Ester, Hans-Peter Kriegel, Jörg Sander, and Xiaowei Xu introduced DBSCAN in 1996, creating a density-based clustering algorithm capable of discovering arbitrary shapes while identifying noise points.",
+    "sourceTitle": "A Density-Based Algorithm for Discovering Clusters in Large Spatial Databases with Noise · KDD, 1996",
+    "sourceUrl": "https://www.aaai.org/Papers/KDD/1996/KDD96-037.pdf"
+  },
+  {
+    "id": "word-representations-brown",
+    "text": "Peter Brown and colleagues introduced hierarchical word clustering in 1992, creating n-gram class models that served as a major precursor to dense word embeddings.",
+    "sourceTitle": "Class-Based n-gram Models of Natural Language · Computational Linguistics, 1992",
+    "sourceUrl": "https://aclanthology.org/J92-4003/"
+  },
+  {
+    "id": "gru",
+    "text": "Kyunghyun Cho and colleagues introduced the Gated Recurrent Unit (GRU) in 2014, simplifying the LSTM by merging the cell state and hidden state using reset and update gates.",
+    "sourceTitle": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation · EMNLP, 2014",
+    "sourceUrl": "https://arxiv.org/abs/1406.1078"
+  },
+  {
+    "id": "densenet",
+    "text": "Gao Huang, Zhuang Liu, Laurens van der Maaten, and Kilian Weinberger introduced DenseNet in 2016, connecting every layer directly to every subsequent layer in a feed-forward fashion to encourage feature reuse.",
+    "sourceTitle": "Densely Connected Convolutional Networks · CVPR, 2017",
+    "sourceUrl": "https://arxiv.org/abs/1608.06993"
+  },
+  {
+    "id": "mobilenet",
+    "text": "Andrew Howard and Google researchers introduced MobileNets in 2017, using depthwise separable convolutions to build lightweight deep neural networks optimized for embedded and mobile devices.",
+    "sourceTitle": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications · arXiv, 2017",
+    "sourceUrl": "https://arxiv.org/abs/1704.04861"
+  },
+  {
+    "id": "efficientnet",
+    "text": "Mingxing Tan and Quoc Le introduced EfficientNet in 2019, formulating compound scaling to balance depth, width, and image resolution concurrently with fixed scaling coefficients.",
+    "sourceTitle": "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks · ICML, 2019",
+    "sourceUrl": "https://arxiv.org/abs/1905.11946"
+  },
+  {
+    "id": "soft-actor-critic",
+    "text": "Tuomas Haarnoja and colleagues introduced Soft Actor-Critic (SAC) in 2018, optimizing continuous control policies under maximum entropy reinforcement learning to foster exploration and robustness.",
+    "sourceTitle": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor · ICML, 2018",
+    "sourceUrl": "https://arxiv.org/abs/1801.01290"
+  },
+  {
+    "id": "graph-attention-networks",
+    "text": "Petar Veličković and colleagues introduced Graph Attention Networks (GAT) in 2017, leveraging self-attentional mechanisms to compute node features dynamically across neighborhood structures.",
+    "sourceTitle": "Graph Attention Networks · ICLR, 2018",
+    "sourceUrl": "https://arxiv.org/abs/1710.10903"
+  },
+  {
+    "id": "umap",
+    "text": "Leland McInnes, John Healy, and James Melville introduced UMAP in 2018, employing Riemannian geometry and fuzzy simplicial sets to dramatically accelerate non-linear dimension reduction.",
+    "sourceTitle": "UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction · arXiv, 2018",
+    "sourceUrl": "https://arxiv.org/abs/1802.03426"
+  },
+  {
+    "id": "flamingo",
+    "text": "Jean-Baptiste Alayrac and DeepMind researchers unveiled Flamingo in 2022, introducing gated cross-attention dense layers to handle interleaved visual and text sequences for zero-shot vision-language tasks.",
+    "sourceTitle": "Flamingo: a Visual Language Model for Few-Shot Learning · NeurIPS, 2022",
+    "sourceUrl": "https://arxiv.org/abs/2204.14198"
+  },
+  {
+    "id": "segment-anything",
+    "text": "Alexander Kirillov and Meta AI researchers released Segment Anything (SAM) in 2023, introducing an interactive, promptable foundation model trained on over 1.1 billion segmentation masks.",
+    "sourceTitle": "Segment Anything · ICCV, 2023",
+    "sourceUrl": "https://arxiv.org/abs/2304.02643"
+  },
+  {
+    "id": "deep-speare-wmt",
+    "text": "Kyunghyun Cho and colleagues established the empirical effectiveness of encoder-decoder recurrent networks in 2014, replacing decades of statistical phrase-based translation pipelines.",
+    "sourceTitle": "On the Properties of Neural Machine Translation: Encoder-Decoder Approaches · SSST-8, 2014",
+    "sourceUrl": "https://arxiv.org/abs/1409.1259"
+  },
+  {
+    "id": "self-attention-gan",
+    "text": "Han Zhang, Ian Goodfellow, Dimitris Metaxas, and Augustus Odena introduced the Self-Attention GAN (SAGAN) in 2018, demonstrating that spectral normalization and non-local attention details resolve spatial distortion in generative image modeling.",
+    "sourceTitle": "Self-Attention Generative Adversarial Networks · ICML, 2019",
+    "sourceUrl": "https://arxiv.org/abs/1805.08318"
+  },
+  {
+    "id": "universal-approximation-theorem",
+    "text": "George Cybenko proved the Universal Approximation Theorem in 1989, establishing that single hidden-layer feedforward networks with continuous sigmoidal activations can approximate any continuous function on compact subsets of $\\mathbb{R}^n$.",
+    "sourceTitle": "Approximation by superpositions of a sigmoidal function · MCSS, 1989",
+    "sourceUrl": "https://doi.org/10.1007/BF02551274"
+  },
+  {
+    "id": "curse-of-dimensionality",
+    "text": "Richard Bellman coined the term 'curse of dimensionality' in 1957 while formalizing dynamic programming, describing the exponential surge in volume when adding extra dimensions to Euclidean space.",
+    "sourceTitle": "Dynamic Programming · Princeton University Press, 1957",
+    "sourceUrl": "https://press.princeton.edu/books/hardcover/9780691146683/dynamic-programming"
+  },
+  {
+    "id": "pac-learning",
+    "text": "Leslie Valiant established Probably Approximately Correct (PAC) learning in 1984, establishing a theoretical foundation for computational learning theory based on polynomial sample and computational complexity.",
+    "sourceTitle": "A Theory of the Learnable · CACM, 1984",
+    "sourceUrl": "https://doi.org/10.1145/1968.1972"
+  },
+  {
+    "id": "policy-gradient-theorem",
+    "text": "Richard Sutton, David McAllester, Satinder Singh, and Yishay Mansour derived the Policy Gradient Theorem in 1999, proving that exact policy gradients can be computed without explicitly calculating derivative transitions of the state distribution.",
+    "sourceTitle": "Policy Gradient Methods for Reinforcement Learning with Function Approximation · NeurIPS, 1999",
+    "sourceUrl": "https://proceedings.neurips.cc/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf"
+  }
+]

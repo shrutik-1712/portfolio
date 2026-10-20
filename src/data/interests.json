@@ -1,0 +1,34 @@
+[
+  {
+    "id": "keyboard",
+    "title": "A few keys at a time.",
+    "category": "Keyboard",
+    "summary": "Currently learning. The soundtrack is a work in progress.",
+    "images": [
+      {
+        "src": "/images/Snapchat-2140262531.jpg",
+        "alt": "Shrutik practising at the keyboard",
+        "caption": "A few keys at a time. Keyboard practice, off-screen.",
+        "date": null
+      }
+    ],
+    "story": "Learning keyboard is one of the things happening away from the screen. One key at a time, with room for small discoveries along the way.",
+    "featured": true
+  },
+  {
+    "id": "wine",
+    "title": "Something to savour.",
+    "category": "Wine appreciation",
+    "summary": "A little space for a good glass and the stories around it.",
+    "images": [
+      {
+        "src": "/images/wine.svg",
+        "alt": "Abstract illustration of a glass of wine, viewed from above",
+        "caption": "Wine appreciation, illustrated.",
+        "date": null
+      }
+    ],
+    "story": "A little space for wine appreciation and the stories around it.",
+    "featured": true
+  }
+]

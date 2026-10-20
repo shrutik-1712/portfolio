@@ -1,0 +1,39 @@
+{
+  "title": "Shrutik’s Internet Home",
+  "description": "Things I build, things I’m learning, and things that probably didn’t need to exist.",
+  "canonicalUrl": null,
+  "resumeUrl": "/resume.pdf",
+  "formEndpoint": null,
+  "socials": {
+    "email": "shrutikdawane1712@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/shrutik-dawane/",
+    "github": "https://github.com/shrutik-1712",
+    "x": "https://x.com/DawaneShrutik"
+  },
+  "nav": [
+    {
+      "path": "/",
+      "label": "Home"
+    },
+    {
+      "path": "/learning",
+      "label": "Learning"
+    },
+    {
+      "path": "/projects",
+      "label": "Projects"
+    },
+    {
+      "path": "/blog",
+      "label": "Blog"
+    },
+    {
+      "path": "/about",
+      "label": "Off-screen"
+    },
+    {
+      "path": "/contact",
+      "label": "Contact"
+    }
+  ]
+}

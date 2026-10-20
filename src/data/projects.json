@@ -1,0 +1,107 @@
+[
+  {
+    "id": "library",
+    "slug": "a-home-for-a-library",
+    "title": "DINA BAMA PATIL LIBRARY & STUDY ROOM",
+    "year": null,
+    "kind": "Client work",
+    "status": "Delivered",
+    "summary": "A website for books, events, and a community around them.",
+    "story": "A freelance library website built with a React frontend and FastAPI / MongoDB backend, with admin-managed books, events, and content.",
+    "context": "A library needed a website it could maintain.",
+    "process": "The application connects a public React interface to an API and an admin-managed content collection.",
+    "result": "Built and delivered to a paying client.",
+    "cover": "/images/dbpl.png",
+    "images": [],
+    "tags": [
+      "React",
+      "FastAPI",
+      "MongoDB"
+    ],
+    "stack": [
+      "React",
+      "FastAPI",
+      "MongoDB"
+    ],
+    "lessons": [],
+    "demoUrl": "https://www.dbplorg.com/",
+    "repoUrl": null,
+    "featured": true,
+    "relatedLearningIds": [],
+    "sample": false
+  },
+  {
+    "id": "flinkoo",
+    "slug": "flinkoo",
+    "title": "Flinkoo",
+    "year": 2025,
+    "kind": "Team project",
+    "status": "Abandoned",
+    "summary": "An AI-powered finance data platform exploring Indian mutual funds through past-performance data.",
+    "story": "Flinkoo was an LLM-powered finance data platform built by a three-person team in February 2025. It explored suggestions for Indian mutual funds based on their past performance.",
+    "context": "The idea was to connect financial data with an LLM workflow that could suggest mutual funds using historical performance.",
+    "process": "I worked on the backend and the connections between the platform's components. The stack included Python, Flask, cron jobs, MongoDB, REST APIs, LLM tool calls, and a React frontend. My teammates handled the mathematical work and frontend.",
+    "result": "The team worked on the platform in February 2025. The project was later abandoned.",
+    "cover": "/images/flinkoo.png",
+    "images": [],
+    "tags": [
+      "Python",
+      "LLM",
+      "Finance",
+      "Flask",
+      "MongoDB"
+    ],
+    "stack": [
+      "Python",
+      "Flask",
+      "Cron jobs",
+      "MongoDB",
+      "REST APIs",
+      "LLM tool calls",
+      "React"
+    ],
+    "lessons": [],
+    "demoUrl": null,
+    "repoUrl": null,
+    "featured": false,
+    "relatedLearningIds": [],
+    "sample": false,
+    "role": "Backend development and integrations. The mathematical work and frontend were handled by the other members of our three-person team.",
+    "completedLabel": "February 2025",
+    "coverFit": "contain",
+    "coverAlt": "Flinkoo blue cube logo",
+    "coverCaption": "Flinkoo project logo."
+  },
+  {
+    "id": "search-slash",
+    "slug": "search-slash",
+    "title": "Search Slash",
+    "year": null,
+    "kind": "Chrome extension",
+    "status": "Source on GitHub",
+    "summary": "Type slash commands in Google Search and expand them into advanced search operators instantly.",
+    "story": "Search Slash is a Chrome extension that brings slash commands to Google Search. Commands expand inline into advanced search operators.",
+    "context": "Advanced search operators are useful, but their syntax can be easy to forget. Slash commands offer a shorter way to compose a search.",
+    "process": "The extension turns slash commands typed in Google Search into advanced search operators, keeping the interaction inside the search field.",
+    "result": "The extension's source code is available in the linked GitHub repository.",
+    "cover": "/images/searchslash-variant3-source.png",
+    "coverFit": "contain",
+    "coverAlt": "Search Slash logo with a blue slash and a magnifying glass",
+    "coverCaption": "Search Slash project logo.",
+    "images": [],
+    "tags": [
+      "Chrome extension",
+      "Search",
+      "Browser tools"
+    ],
+    "stack": [
+      "Chrome Extensions"
+    ],
+    "lessons": [],
+    "demoUrl": null,
+    "repoUrl": "https://github.com/shrutik-1712/searchSlash",
+    "featured": false,
+    "relatedLearningIds": [],
+    "sample": false
+  }
+]

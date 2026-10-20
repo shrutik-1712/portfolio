@@ -141,3 +141,25 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Local design reviews and generated screenshots
+/.taste-skill/
+/artifacts/
+
+# Browser test output
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Local hosting CLI state
+/.vercel/
+/.netlify/
+
+# Editor and operating-system files
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
